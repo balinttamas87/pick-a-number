@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>pick_a_number</title>
+	<link rel="stylesheet" href="styles/main.min.css">
+</head>
+
+<body>
+
+	<div class="main-content">
+		<h1>Hello you, wanna play?</h1>
+		<p>Click on the button below</p>
+		<button id="btnPlay">Play</button>
+		<p id="instructions">
+			Think of a number between 0 and 1000. I'll ask 10 questions and will try to guess which number you've been thinking of.<br> When you are ready click the Start button.
+		</p>
+		<button id="btnStart">Start</button>
+
+		<div class="questions" id="questions">
+			<h1 id="question-number"></h1>
+			<p id="question"></p>
+			<button id="btnYes">Yes</button>
+			<button id="btnNo">No</button>
+			<p id="result"></p>
+			<button id="btnPlayAgain">Play again</button>
+		</div>
+	</div>
+	<script src="scripts/main.min.js"></script>
+</body>
+
+</html>
